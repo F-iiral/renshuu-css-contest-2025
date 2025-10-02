@@ -1,0 +1,16 @@
+/* ==UserStyle==
+@name           www.renshuu.org
+@version        1.0.0
+@description    Changes the Conjugation Table to be 900px wide if possible
+@author         Fiiral
+==/UserStyle== */
+
+@-moz-document url-prefix("https://www.renshuu.org/") {
+    #ttip {
+        position: inherit !important;
+        left: 0px !important;
+        max-width: 900px !important;
+        width: fit-content;
+        margin: 0 auto;
+    }
+}
